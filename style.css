@@ -286,10 +286,10 @@ section{
     position: relative;
     width: 425px;
     height: 420px;
-    right:14px ;
+    right:15px ;
     bottom: -37px;
     z-index: 10;
-    rotate:  90deg;
+    rotate:  0deg;
 }
 
 .rotate-text{
