@@ -1155,7 +1155,8 @@ footer{
     }
 }
 
-@media(max-width:530px){
+@media only screen and (max-width: 400px) {
+
     html{
         font-size: 80%;
     }
@@ -1168,14 +1169,18 @@ footer{
     .input-box input {
         width: 100%;
     }
+    .img-hero{
+        height:100px;
+        width:80px;
+    }
     .rotate-text{
-        display: none;
+        display:grid;
     }
     .img-hero img{
-        width: 100%;
+        width: auto;
     }
     .text-animate{
-        width: 23.8rem;
+        width: 13rem;
     }
     .btn-box{
         width: 266px;
@@ -1192,4 +1197,5 @@ footer{
         width: 100%;
         padding: 13px;
     }
+    
 }
